@@ -6,6 +6,7 @@ import numpy as np
 import warnings
 import math
 
+# Reference:https://github.com/sdia/tisane
 # FIXME: dfa fails for very small input sequences
 
 deprecation_msg_euler = \
@@ -1509,4 +1510,3 @@ def logistic_function(x0, r, n):
 #test
 # ly=lyap_r(logistic_function(0.3,3.8,100))
 # print(ly)
-
